@@ -1,0 +1,663 @@
+[19:09:47] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.10
+[19:09:48] [main/INFO]: Loading 131 mods:
+	- appleskin 3.0.6+mc1.21.5
+	- authme 9.0.1+1.21.5
+	   \-- resourcefulconfig 3.5.0
+	- balm 21.5.14
+	   \-- kuma_api 21.5.2
+	- chat_heads 0.13.15
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- distanthorizons 2.3.2-b
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b07
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f07
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b07
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98907
+	   |-- fabric-rendering-v1 11.1.11+081cc04307
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679607
+	   \-- fabric-screen-api-v1 2.0.46+86c3a9f107
+	- dynamic_fps 3.9.3
+	   \-- net_lostluma_battery 1.3.0
+	- entity_model_features 2.4.3
+	- entity_sound_features 0.6
+	- entity_texture_features 6.2.13
+	   \-- org_apache_httpcomponents_httpmime 4.5.10
+	- entityculling 1.7.4
+	- fabric-api 0.121.0+1.21.5
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.0+9c0dd47249
+	   |-- fabric-data-generation-api-v1 22.3.4+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.2+kotlin.2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- fpsdisplay 4.3.1+1.21.5
+	- fpsreducer 1.21.5-2.12
+	- immediatelyfast 1.9.3+1.21.5
+	   \-- net_lenni0451_reflect 1.3.4
+	- iris 1.8.11+mc1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   |-- io_github_douira_glsl-transformer 2.0.1
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 21
+	- lambdynlights 4.2.6+1.21.5
+	   |-- lambdynlights_api 4.2.6+1.21.5
+	   |    |-- yumi-commons-collections 1.0.0-alpha.7
+	   |    |-- yumi-commons-core 1.0.0-alpha.7
+	   |    \-- yumi-commons-event 1.0.0-alpha.7
+	   |-- pride 1.3.0+1.21.5
+	   \-- spruceui 7.0.0+1.21.5
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+	- modelfix 1.21.5-1.12
+	- modmenu 14.0.0-rc.2
+	- morechathistory 1.3.1
+	- mousetweaks 2.27
+	- netherportalfix 21.5.1
+	- placeholder-api 2.6.3+1.21.5
+	- pling 1.9.0
+	- shulkerboxtooltip 5.2.5+1.21.5
+	- silk-all 1.11.1
+	   |-- silk-commands 1.11.1
+	   |-- silk-core 1.11.1
+	   |-- silk-game 1.11.1
+	   |-- silk-igui 1.11.1
+	   |-- silk-nbt 1.11.1
+	   |-- silk-network 1.11.1
+	   \-- silk-persistence 1.11.1
+	- sodium 0.6.13+mc1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   \-- fabric-resource-loader-v0 3.1.6+02ca679607
+	- veinminer 2.4.2
+	   |-- de_miraculixx_core_dev 2.4.2
+	   \-- fabric-permissions-api-v0 0.3.3
+	- veinminer-enchantment 2.2.2
+	- voicechat 1.21.5-2.5.30
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b07
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98907
+	   \-- fabric-resource-loader-v0 3.1.6+02ca679607
+	- yet_another_config_lib_v3 3.6.6+1.21.5-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[19:09:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:09:48] [main/INFO]: Compatibility level set to JAVA_21
+[19:09:48] [main/INFO]: OptiFine was NOT detected.
+[19:09:48] [main/INFO]: OptiFabric was NOT detected.
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[19:09:48] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[19:09:49] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:09:49] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[19:09:49] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[19:09:49] [main/WARN]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[19:09:50] [main/INFO]: bre2el.fpsreducer.mixin.MinecraftMixin will be applied.
+[19:09:50] [main/INFO]: bre2el.fpsreducer.mixin.KeyboardHandlerMixin will be applied.
+[19:09:50] [main/INFO]: bre2el.fpsreducer.mixin.RenderSystemMixin will be applied.
+[19:09:50] [main/INFO]: bre2el.fpsreducer.mixin.FramerateLimitTrackerMixin will be applied.
+[19:09:50] [main/INFO]: bre2el.fpsreducer.mixin.VideoSettingScreenMixin will be applied.
+[19:09:50] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[19:09:50] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[19:09:50] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[19:09:50] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+[19:09:50] [main/INFO]: Searching for graphics cards...
+[19:09:51] [main/INFO]: Found graphics adapter: LinuxPciAdapterInfo[vendor=AMD, name=VanGogh [AMD Custom GPU 0405], pciVendorId=0x1002, pciDeviceId=0x163f]
+[19:09:51] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NO_ERROR_CONTEXT_UNSUPPORTED]
+[19:09:51] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[19:09:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:09:55] [Datafixer Bootstrap/INFO]: 263 Datafixer optimizations took 1979 milliseconds
+[19:10:01] [Render thread/INFO]: fpsdisplay.mixins.json:MinecraftClientAccessor from mod fpsdisplay->@Accessor[FIELD_GETTER]::getCurrentFps()I should be static as its target is
+[19:10:01] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:10:01] [Render thread/INFO]: Setting user: dah950
+[19:10:02] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[19:10:02] [Render thread/INFO]: Initializing Silk
+[19:10:02] [Render thread/INFO]: Veinminer Version: 2.4.2 (fabric)
+[19:10:03] [Render thread/INFO]: Veinminer-Enchantment Version: 2.2.2 (fabric)
+[19:10:03] [Render thread/INFO]: [voicechat] Compatibility version 18
+[19:10:03] [Render thread/INFO]: [voicechat] Loading plugins
+[19:10:03] [Render thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[19:10:03] [Render thread/INFO]: [voicechat] Initializing plugins
+[19:10:03] [Render thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[19:10:03] [DefaultDispatcher-worker-2/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[19:10:03] [Render thread/INFO]: Initializing Distant Horizons client.
+[19:10:03] [Render thread/INFO]: Distant Horizons, Version: 2.3.2-b
+[19:10:03] [Render thread/INFO]: Registering Fabric Client Events
+[19:10:03] [Render thread/INFO]: Registering Fabric Server Events
+[19:10:03] [Render thread/INFO]: Registered mod compatibility accessor for: [Sodium-Fabric].
+[19:10:03] [Render thread/INFO]: Registered mod compatibility accessor for: [iris].
+[19:10:03] [Render thread/INFO]: Distant Horizons client Initialized.
+[19:10:03] [Render thread/INFO]: Initialising config for DistantHorizons
+[19:10:03] [Render thread/INFO]: Config for DistantHorizons initialised
+[19:10:03] [Render thread/INFO]: Dynamic FPS 3.9.3 active on Fabric!
+[19:10:03] [Render thread/INFO]: Loading Entity Model Features, 0% Opti, 70% Fine.
+[19:10:03] [Render thread/INFO]: [ETF]: 6 new ETF Random Properties registered by entity_model_features.
+[19:10:03] [Render thread/INFO]: [ESF (Entity Sound Features)] initialized.
+[19:10:03] [Render thread/INFO]: [ETF]: 3 new ETF Random Properties registered by entity_sound_features.
+[19:10:03] [Render thread/INFO]: [EMF]: Successful registration of custom function:playsound from mod entity_sound_features
+[19:10:03] [Render thread/INFO]: [EMF]: Successful registration of custom function:playingsound from mod entity_sound_features
+[19:10:03] [Render thread/INFO]: Loading Entity Texture Features, Has Anyone Really Been Far Even as Decided to Use Even Go Want to do Look More Like?
+[19:10:03] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[19:10:03] [Render thread/INFO]: [fpsdisplay] Couldn't load configuration file, reverting to defaults!
+[19:10:04] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[19:10:04] [Render thread/INFO]: [LambDynLights] Copied default configuration file.
+[19:10:04] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[19:10:04] [Render thread/INFO]: Loaded config modelfix-client.json
+[19:10:04] [Render thread/INFO]: Checking mod updates...
+[19:10:04] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[19:10:04] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[19:10:04] [Render thread/INFO]: Initialized mcClientCoroutineScope (MinecraftClient as executor)
+[19:10:04] [Render thread/INFO]: [voicechat] Loading Opus
+[19:10:04] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[19:10:04] [Render thread/INFO]: Deserializing YACLConfig from '/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/config/yacl.json5'
+[19:10:04] [Render thread/INFO]: Queuing DH event binding...
+[19:10:04] [Render thread/INFO]: DH Ready, binding Iris event handlers...
+[19:10:04] [Render thread/INFO]: DH Iris events bound.
+[19:10:04] [ModMenu/Update Checker/Fabric Loader/INFO]: Update available for 'fabricloader@0.16.10'
+[19:10:04] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[19:10:05] [Render thread/INFO]: Initializing ImmediatelyFast 1.9.3+1.21.5 on AMD Custom GPU 0405 (radeonsi, vangogh, LLVM 19.1.7, DRM 3.57, 6.8.0-58-generic) (AMD) with OpenGL 4.6 (Core Profile) Mesa 25.0.3 (git-c3afa2a74f)
+[19:10:05] [Render thread/INFO]: Found Iris/Oculus 1.8.11+mc1.21.5. Enabling compatibility.
+[19:10:05] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[19:10:05] [Render thread/INFO]: Debug functionality is disabled.
+[19:10:05] [Render thread/INFO]: OpenGL 4.5 detected, enabling DSA.
+[19:10:05] [Render thread/INFO]: OpenGL Vendor: AMD
+[19:10:05] [Render thread/INFO]: OpenGL Renderer: AMD Custom GPU 0405 (radeonsi, vangogh, LLVM 19.1.7, DRM 3.57, 6.8.0-58-generic)
+[19:10:05] [Render thread/INFO]: OpenGL Version: 4.6 (Core Profile) Mesa 25.0.3 (git-c3afa2a74f)
+[19:10:05] [Render thread/INFO]: Using optional rendering extensions: GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[19:10:05] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[19:10:06] [Render thread/INFO]: Hardware information:
+[19:10:06] [Render thread/INFO]: CPU: 8x AMD Custom APU 0405
+[19:10:06] [Render thread/INFO]: GPU: AMD Custom GPU 0405 (radeonsi, vangogh, LLVM 19.1.7, DRM 3.57, 6.8.0-58-generic) (Supports OpenGL 4.6 (Core Profile) Mesa 25.0.3 (git-c3afa2a74f))
+[19:10:06] [Render thread/INFO]: OS: Linux (6.8.0-58-generic)
+[19:10:06] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, appleskin, authme, balm, chat_heads, cloth-config, distanthorizons, dynamic_fps, entity_model_features, entity_sound_features, entity_texture_features, entityculling, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fpsdisplay, fpsreducer, immediatelyfast, iris, lambdynlights, lambdynlights_api, lithium, modmenu, morechathistory, netherportalfix, placeholder-api, pling, pride, resourcefulconfig, shulkerboxtooltip, silk-all, sodium, spruceui, veinminer, veinminer-enchantment, voicechat, yet_another_config_lib_v3
+[19:10:06] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: BALANCED
+[19:10:06] [DH-ApplyConfigPresetTimer/INFO]: preset active: BALANCED
+[19:10:06] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[19:10:06] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[19:10:06] [Worker-Main-2/INFO]: Found unifont_all_no_pua-16.0.01.hex, loading
+[19:10:07] [Worker-Main-1/WARN]: Method overwrite conflict for getCullingBox in sodium-common.mixins.json:core.render.world.EntityRendererAccessor from mod sodium, previously written by dev.tr7zw.entityculling.mixin.EntityRendererMixin. Skipping method.
+[19:10:07] [Render thread/INFO]: Post-Initializing Mod
+[19:10:07] [Render thread/INFO]: Mod Post-Initialized
+[19:10:07] [Worker-Main-2/INFO]: Found unifont_jp_patch-16.0.01.hex, loading
+[19:10:07] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[19:10:08] [Render thread/WARN]: minecraft:pipeline/entity_translucent_emissive shader program does not use sampler Sampler2 defined in the pipeline. This might be a bug.
+[19:10:09] [Render thread/INFO]: OpenAL initialized on device Rembrandt Radeon High Definition Audio Controller Digital Stereo (HDMI 3)
+[19:10:09] [Render thread/INFO]: Sound engine started
+[19:10:09] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:10:09] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[19:10:09] [Render thread/INFO]: [ETF]: reloading ETF data.
+[19:10:10] [Render thread/INFO]: [ETF]: emissive suffixes loaded: {_e}.
+[19:10:10] [Render thread/INFO]: Checking for Distant Horizons update
+[19:10:10] [Render thread/INFO]: Distant Horizons already up to date.
+[19:10:10] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[19:10:14] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:10:14] [ForkJoinPool.commonPool-worker-1/INFO]: Verifying Minecraft session...
+[19:10:15] [ForkJoinPool.commonPool-worker-1/INFO]: The Minecraft session is valid
+[19:10:31] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:10:33] [Render thread/INFO]: Connecting to 192.168.1.8, 25565
+[19:10:34] [Render thread/WARN]: Client disconnected with reason: Unable to connect you to lobby. Please try again later.
+[19:10:35] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:12:04] [Render thread/INFO]: Connecting to 192.168.1.8, 25565
+[19:12:06] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld}]-[e760fr3f1ln66@minecraft:overworld].
+[19:12:06] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[19:12:06] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[19:12:06] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[19:12:06] [Render thread/INFO]: Started 2 worker threads
+[19:12:06] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[19:12:06] [Render thread/WARN]: [voicechat] Failed to open audio channel 'soundcore Space One', falling back to default
+[19:12:06] [Render thread/ERROR]: [voicechat] Voicechat sound manager ALC error: de.maxhenkel.voicechat.voice.client.SoundManager.canEnumerate[191] Invalid value
+[19:12:06] [Render thread/INFO]: Client on ClientOnly mode connecting.
+[19:12:06] [Render thread/INFO]: Started DhWorld of type CLIENT_ONLY
+[19:12:06] [Render thread/INFO]: Loading [1] waiting client level wrappers.
+[19:12:06] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld}]-[e760fr3f1ln66@minecraft:overworld].
+[19:12:06] [Render thread/WARN]: unable to create data folder.
+[19:12:06] [Render thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:06] [Render thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:06] [Render thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:06] [Render thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:07] [Render thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:07] [Render thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:07] [Render thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:07] [Render thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:07] [Render thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:07] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [e760fr3f1ln66@minecraft:overworld]-[/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld]...
+[19:12:07] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:12:07] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:12:07] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld} with saves at [ClientOnlySaveStructure@(/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld)]
+[19:12:07] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:12:07] [Render thread/INFO]: [System] [CHAT] dah950 joined the game
+[19:12:07] [Render thread/INFO]: Loaded 49 advancements
+[19:12:07] [Render thread/INFO]: [System] [CHAT] [ViaVersion] There is a newer plugin version available: 5.3.2, you're on: 5.3.0
+[19:12:07] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[19:12:07] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 19 color keys for mod shulkerboxtooltip
+[19:12:07] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[19:12:07] [Render thread/INFO]: [voicechat] Received secret
+[19:12:07] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '192.168.1.8:24454'
+[19:12:07] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:12:07] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[19:12:07] [Render thread/INFO]: Stopping worker threads
+[19:12:07] [Render thread/INFO]: Started 2 worker threads
+[19:12:07] [Render thread/INFO]: Creating GLProxy... If this is the last message you see there must have been an OpenGL error.
+[19:12:07] [Render thread/INFO]: Lod Render OpenGL version [4.6 (Core Profile) Mesa 25.0.3 (git-c3afa2a74f)].
+[19:12:07] [Render thread/INFO]: minecraftGlCapabilities:
+Your OpenGL support:
+openGL version 3.2+: [true] <- REQUIRED
+Vertex Attribute Buffer Binding: [true] <- optional improvement
+Buffer Storage: [true] <- optional improvement
+
+[19:12:07] [Render thread/INFO]: GPU Vendor [AMD], Preferred upload method is [BUFFER_STORAGE].
+[19:12:07] [Render thread/INFO]: GLProxy creation successful. OpenGL smiles upon you this day.
+[19:12:07] [Render thread/INFO]: Setting up renderer
+[19:12:07] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:07] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:07] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:07] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:07] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[19:12:08] [Render thread/INFO]: Renderer setup complete
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 8
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35633]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [Render thread/INFO]: Loading shader with type: [35632]
+[19:12:08] [Render thread/INFO]: Shader loaded sucessfully.
+[19:12:08] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[19:12:08] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[19:12:52] [Render thread/INFO]: [System] [CHAT] You are already trying to connect to a server!
+[19:12:59] [Render thread/INFO]: [voicechat] Clearing audio channels
+[19:12:59] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[19:12:59] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[19:12:59] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
+[19:12:59] [Render thread/INFO]: Unloading level [e760fr3f1ln66@minecraft:overworld].
+[19:12:59] [Render thread/INFO]: Shutting down ClientRenderState
+[19:12:59] [Render thread/INFO]: Shutting down LodRenderer...
+[19:12:59] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[19:12:59] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:12:59] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:12:59] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:12:59] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:12:59] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:12:59] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:12:59] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:12:59] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{e760fr3f1ln66@minecraft:overworld}].
+[19:12:59] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{e760fr3f1ln66@minecraft:overworld}].
+[19:12:59] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]...
+[19:12:59] [DH-Parent Update Queue [e760fr3f1ln66@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [e760fr3f1ln66@minecraft:overworld] Thread[0]] terminated.
+[19:12:59] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:12:59] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld}]
+[19:12:59] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:12:59] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:12:59] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[19:12:59] [Render thread/INFO]: Closing all [0] database connections...
+[19:12:59] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[e760fr3f1ln66@minecraft:overworld].
+[19:12:59] [Render thread/INFO]: Stopping worker threads
+[19:12:59] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:12:59] [ForkJoinPool.commonPool-worker-2/INFO]: Verifying Minecraft session...
+[19:13:00] [ForkJoinPool.commonPool-worker-2/INFO]: The Minecraft session is valid
+[19:13:54] [Render thread/INFO]: Connecting to 192.168.1.8, 25565
+[19:13:55] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld}]-[e760fr3f1ln66@minecraft:overworld].
+[19:13:55] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:overworld
+[19:13:55] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[19:13:55] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[19:13:55] [Render thread/INFO]: Started 2 worker threads
+[19:13:55] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[19:13:55] [Render thread/WARN]: [voicechat] Failed to open audio channel 'soundcore Space One', falling back to default
+[19:13:55] [Render thread/ERROR]: [voicechat] Voicechat sound manager ALC error: de.maxhenkel.voicechat.voice.client.SoundManager.canEnumerate[191] Invalid value
+[19:13:55] [Render thread/INFO]: Client on ClientOnly mode connecting.
+[19:13:55] [Render thread/INFO]: Started DhWorld of type CLIENT_ONLY
+[19:13:55] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[19:13:55] [Render thread/INFO]: Loading [1] waiting client level wrappers.
+[19:13:55] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld}]-[e760fr3f1ln66@minecraft:overworld].
+[19:13:55] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [e760fr3f1ln66@minecraft:overworld]-[/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld]...
+[19:13:55] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:13:55] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:13:55] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld} with saves at [ClientOnlySaveStructure@(/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld)]
+[19:13:55] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:13:55] [Render thread/INFO]: [System] [CHAT] dah950 joined the game
+[19:13:55] [Render thread/INFO]: Loaded 49 advancements
+[19:13:55] [Render thread/INFO]: [voicechat] Received secret
+[19:13:55] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '192.168.1.8:24454'
+[19:13:55] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:13:55] [Render thread/INFO]: Setting up renderer
+[19:13:55] [Render thread/INFO]: Loading shader with type: [35633]
+[19:13:55] [Render thread/INFO]: Shader loaded sucessfully.
+[19:13:55] [Render thread/INFO]: Loading shader with type: [35632]
+[19:13:55] [Render thread/INFO]: Shader loaded sucessfully.
+[19:13:55] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[19:13:55] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[19:13:55] [Render thread/INFO]: Renderer setup complete
+[19:13:55] [Render thread/INFO]: Loading shader with type: [35633]
+[19:13:55] [Render thread/INFO]: Shader loaded sucessfully.
+[19:13:55] [Render thread/INFO]: Loading shader with type: [35632]
+[19:13:55] [Render thread/INFO]: Shader loaded sucessfully.
+[19:13:55] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:13:55] [Render thread/INFO]: Loading shader with type: [35633]
+[19:13:55] [Render thread/INFO]: Shader loaded sucessfully.
+[19:13:55] [Render thread/INFO]: Loading shader with type: [35632]
+[19:13:55] [Render thread/INFO]: Shader loaded sucessfully.
+[19:13:55] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:13:55] [Render thread/INFO]: Renderer Cleanup Started
+[19:13:55] [Render thread/INFO]: Renderer Cleanup Complete
+[19:13:55] [Render thread/INFO]: [System] [CHAT] [ViaVersion] There is a newer plugin version available: 5.3.2, you're on: 5.3.0
+[19:13:56] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[19:13:56] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[19:14:40] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[e760fr3f1ln66@minecraft:overworld].
+[19:14:40] [Render thread/INFO]: Unloading level DhClientLevel{e760fr3f1ln66@minecraft:overworld}
+[19:14:40] [Render thread/INFO]: Shutting down ClientRenderState
+[19:14:40] [Render thread/INFO]: Shutting down LodRenderer...
+[19:14:40] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[19:14:40] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:14:40] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:14:40] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:14:40] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:14:40] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:14:40] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:14:40] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:14:40] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{e760fr3f1ln66@minecraft:overworld}].
+[19:14:40] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{e760fr3f1ln66@minecraft:overworld}].
+[19:14:40] [DH-Parent Update Queue [e760fr3f1ln66@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [e760fr3f1ln66@minecraft:overworld] Thread[0]] terminated.
+[19:14:40] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]...
+[19:14:40] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@e760fr3f1ln66@minecraft:overworld}]
+[19:14:40] [Render thread/INFO]: Stopping worker threads
+[19:14:40] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:the_nether}]-[is9rhgr5ig50i@minecraft:the_nether].
+[19:14:40] [Render thread/WARN]: unable to create data folder.
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [Render thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:40] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [is9rhgr5ig50i@minecraft:the_nether]-[/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether]...
+[19:14:40] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:14:40] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:14:40] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:the_nether} with saves at [ClientOnlySaveStructure@(/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/e760fr3f1ln66@minecraft@@overworld;/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether)]
+[19:14:40] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:14:40] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:overworld => minecraft:the_nether
+[19:14:40] [Render thread/INFO]: Destroying pipeline minecraft:overworld
+[19:14:40] [Render thread/INFO]: Creating pipeline for dimension minecraft:the_nether
+[19:14:40] [Render thread/INFO]: Started 2 worker threads
+[19:14:41] [Render thread/INFO]: [voicechat] Disconnecting from previous connection due to server change
+[19:14:41] [Render thread/INFO]: [voicechat] Clearing audio channels
+[19:14:41] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[19:14:41] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[19:14:41] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[19:14:41] [Render thread/WARN]: [voicechat] Failed to open audio channel 'soundcore Space One', falling back to default
+[19:14:41] [Render thread/ERROR]: [voicechat] Voicechat sound manager ALC error: de.maxhenkel.voicechat.voice.client.SoundManager.canEnumerate[191] Invalid value
+[19:14:41] [Render thread/INFO]: Client on ClientOnly mode connecting.
+[19:14:41] [Render thread/INFO]: Started DhWorld of type CLIENT_ONLY
+[19:14:41] [Render thread/INFO]: Unloading level [is9rhgr5ig50i@minecraft:the_nether].
+[19:14:41] [Render thread/INFO]: Shutting down ClientRenderState
+[19:14:41] [Render thread/INFO]: Shutting down LodRenderer...
+[19:14:41] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[19:14:41] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:14:41] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:14:41] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:14:41] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:14:41] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:14:41] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:14:41] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:14:41] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{is9rhgr5ig50i@minecraft:the_nether}].
+[19:14:41] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{is9rhgr5ig50i@minecraft:the_nether}].
+[19:14:41] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]...
+[19:14:41] [DH-Parent Update Queue [is9rhgr5ig50i@minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [is9rhgr5ig50i@minecraft:the_nether] Thread[0]] terminated.
+[19:14:41] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/REPLAY/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:the_nether}]
+[19:14:41] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:14:41] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[19:14:41] [Render thread/INFO]: Loading [0] waiting client level wrappers.
+[19:14:41] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:the_nether}]-[is9rhgr5ig50i@minecraft:the_nether].
+[19:14:41] [Render thread/WARN]: unable to create data folder.
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [Render thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:41] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [is9rhgr5ig50i@minecraft:the_nether]-[/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether]...
+[19:14:41] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:14:41] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:14:41] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:the_nether} with saves at [ClientOnlySaveStructure@(/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether)]
+[19:14:41] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:14:41] [Render thread/INFO]: [System] [CHAT] Vivecraft update available: §aVivecraft 1.21.5-1.2.5-fabric
+[19:14:41] [Render thread/INFO]: Loaded 542 advancements
+[19:14:41] [Render thread/INFO]: [voicechat] Received secret
+[19:14:41] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '192.168.1.8:24455'
+[19:14:41] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[19:14:41] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[19:14:41] [Render thread/INFO]: Stopping worker threads
+[19:14:41] [Render thread/INFO]: Started 2 worker threads
+[19:14:41] [Render thread/INFO]: Setting up renderer
+[19:14:41] [Render thread/INFO]: Loading shader with type: [35633]
+[19:14:41] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:41] [Render thread/INFO]: Loading shader with type: [35632]
+[19:14:41] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:41] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[19:14:41] [Render thread/INFO]: Renderer setup complete
+[19:14:41] [Render thread/INFO]: Loading shader with type: [35633]
+[19:14:41] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:41] [Render thread/INFO]: Loading shader with type: [35632]
+[19:14:41] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:41] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:14:41] [Render thread/INFO]: Loading shader with type: [35633]
+[19:14:41] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:41] [Render thread/INFO]: Loading shader with type: [35632]
+[19:14:41] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:41] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:14:41] [Render thread/INFO]: Renderer Cleanup Started
+[19:14:41] [Render thread/INFO]: Renderer Cleanup Complete
+[19:14:41] [Render thread/INFO]: Renderer Cleanup Started
+[19:14:41] [Render thread/INFO]: Renderer Cleanup Complete
+[19:14:42] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[19:14:42] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[19:14:52] [Render thread/INFO]: [System] [CHAT] dah950 was killed
+[19:14:52] [Render thread/INFO]: [System] [CHAT] Killed dah950
+[19:14:53] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[is9rhgr5ig50i@minecraft:the_nether].
+[19:14:53] [Render thread/INFO]: Unloading level DhClientLevel{is9rhgr5ig50i@minecraft:the_nether}
+[19:14:53] [Render thread/INFO]: Shutting down ClientRenderState
+[19:14:53] [Render thread/INFO]: Shutting down LodRenderer...
+[19:14:53] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[19:14:53] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:14:53] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:14:53] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:14:53] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:14:53] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:14:53] [DH-Cleanup Thread[0]/INFO]: waiting for [2] futures before closing render cache...
+[19:14:53] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:14:53] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{is9rhgr5ig50i@minecraft:the_nether}].
+[19:14:53] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{is9rhgr5ig50i@minecraft:the_nether}].
+[19:14:53] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]...
+[19:14:53] [DH-Parent Update Queue [is9rhgr5ig50i@minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [is9rhgr5ig50i@minecraft:the_nether] Thread[0]] terminated.
+[19:14:53] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:the_nether}]
+[19:14:53] [Render thread/INFO]: Loading client level [Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:overworld}]-[is9rhgr5ig50i@minecraft:overworld].
+[19:14:53] [Render thread/WARN]: unable to create data folder.
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [Render thread/INFO]: Running SQL update script: [sqlScripts/0080-sqlite-addApplyToChildrenColumn.sql], for repo: [/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:14:53] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [is9rhgr5ig50i@minecraft:overworld]-[/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld]...
+[19:14:53] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:14:53] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:14:53] [Render thread/INFO]: Started DHLevel for Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:overworld} with saves at [ClientOnlySaveStructure@(/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@the_nether;/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld)]
+[19:14:53] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[19:14:53] [Render thread/INFO]: Reloading pipeline on dimension change: minecraft:the_nether => minecraft:overworld
+[19:14:53] [Render thread/INFO]: Destroying pipeline minecraft:the_nether
+[19:14:53] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[19:14:53] [Render thread/INFO]: Stopping worker threads
+[19:14:53] [Render thread/INFO]: Started 2 worker threads
+[19:14:53] [Render thread/INFO]: Stopping worker threads
+[19:14:53] [Render thread/INFO]: Started 2 worker threads
+[19:14:53] [Render thread/INFO]: Setting up renderer
+[19:14:53] [Render thread/INFO]: Loading shader with type: [35633]
+[19:14:53] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:53] [Render thread/INFO]: Loading shader with type: [35632]
+[19:14:53] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:53] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 16
+[19:14:53] [Render thread/INFO]: Renderer setup complete
+[19:14:53] [Render thread/INFO]: Loading shader with type: [35633]
+[19:14:53] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:53] [Render thread/INFO]: Loading shader with type: [35632]
+[19:14:53] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:53] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:14:54] [Render thread/INFO]: Loading shader with type: [35633]
+[19:14:54] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:54] [Render thread/INFO]: Loading shader with type: [35632]
+[19:14:54] [Render thread/INFO]: Shader loaded sucessfully.
+[19:14:54] [Render thread/INFO]: Vertex Attribute (GL43+) completed. It contains 1 binding points and a stride size of 12
+[19:14:54] [Render thread/INFO]: Renderer Cleanup Started
+[19:14:54] [Render thread/INFO]: Renderer Cleanup Complete
+[19:15:35] [Render thread/INFO]: [voicechat] Clearing audio channels
+[19:15:35] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[19:15:35] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[19:15:35] [Render thread/INFO]: Client on ClientOnly mode disconnecting.
+[19:15:35] [Render thread/INFO]: Unloading level [is9rhgr5ig50i@minecraft:overworld].
+[19:15:35] [Render thread/INFO]: Shutting down ClientRenderState
+[19:15:35] [Render thread/INFO]: Shutting down LodRenderer...
+[19:15:35] [Render thread/INFO]: Queuing Renderer Cleanup for main render thread
+[19:15:35] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:15:35] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:15:35] [Render thread/INFO]: Finished shutting down LodRenderer
+[19:15:35] [Render thread/INFO]: Shutting down LodQuadTree...
+[19:15:35] [Render thread/INFO]: Finished shutting down LodQuadTree
+[19:15:35] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:15:35] [DH-Cleanup Thread[0]/INFO]: waiting for [0] futures before closing render cache...
+[19:15:35] [Render thread/INFO]: Closing [RemoteFullDataSourceProvider] for level: [DhClientLevel{is9rhgr5ig50i@minecraft:overworld}].
+[19:15:35] [Render thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhClientLevel{is9rhgr5ig50i@minecraft:overworld}].
+[19:15:35] [Render thread/INFO]: Closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]...
+[19:15:35] [DH-Parent Update Queue [is9rhgr5ig50i@minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [is9rhgr5ig50i@minecraft:overworld] Thread[0]] terminated.
+[19:15:35] [Render thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:/home/daxton/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Heath Mid/minecraft/Distant_Horizons_server_data/DELETE+ME%2C+IP+192%2E168%2E1%2E8/is9rhgr5ig50i@minecraft@@overworld/DistantHorizons.sqlite]
+[19:15:35] [Render thread/INFO]: Closed [DhClientLevel] for [Wrapped{ClientLevel@is9rhgr5ig50i@minecraft:overworld}]
+[19:15:35] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:15:35] [Render thread/INFO]: Closed DhWorld of type [CLIENT_ONLY].
+[19:15:35] [Render thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[19:15:35] [Render thread/INFO]: Closing all [0] database connections...
+[19:15:36] [Render thread/INFO]: Unloading client level [ClientLevelWrapper]-[is9rhgr5ig50i@minecraft:overworld].
+[19:15:36] [Render thread/INFO]: Stopping worker threads
+[19:15:36] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:15:36] [ForkJoinPool.commonPool-worker-3/INFO]: Verifying Minecraft session...
+[19:15:36] [ForkJoinPool.commonPool-worker-3/INFO]: The Minecraft session is valid
+[19:15:43] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:15:43] [Render thread/INFO]: Adding auth button to the multiplayer screen
+[19:15:47] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[19:15:47] [Render thread/INFO]: Stopping!
